@@ -6,7 +6,7 @@ This research presents a robust and comprehensive framework for volatility surfa
 
 The valuation of financial derivatives, particularly exotic options, is fundamentally dependent on an accurate representation of the underlying asset's future price distribution. The Black-Scholes model, while foundational, assumes constant volatility, a premise contradicted by empirical observation. The market's volatility smile and skew reveal that implied volatility is a function of both strike price and time to maturity. This necessitates the use of more sophisticated models that can capture this dynamic structure, collectively known as the volatility surface.
 
-This project addresses this challenge by implementing and comparing three state-of-the-art volatility surface models. Our goal is to create a practical, high-performance toolkit for a quantitative analyst to:
+This project addresses this challenge by implementing and comparing three state-of-the-art volatility surface models. The objective is to create a practical, high-performance toolkit to:
 
 1. Accurately calibrate each model to real-world market data.
 
@@ -109,5 +109,5 @@ These dependencies can be installed via pip using the following command: **pip i
 
 **Execution**
 
-The primary simulation script, main.py, will automatically download the necessary historical data, perform the comparative analysis, and generate the corresponding visualization plots. Execute the script from the terminal as follows: **python main.py**.
+The primary simulation script, main.py, will automatically download the necessary historical data, perform the comparative analysis, and generate the corresponding visualization plots. Execute the script from the terminal as follows: **python volatility-project.py**.
 
