@@ -3,7 +3,7 @@
 import numpy as np
 from scipy.stats import norm
 import scipy.optimize as sco
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 import pandas as pd
 import yfinance as yf
 import datetime
